@@ -79,4 +79,3 @@ def run_seqences(strA, strB):
  
 if __name__ == "__main__":
     run_seqences(seq_one,seq_two)
-    #test()
