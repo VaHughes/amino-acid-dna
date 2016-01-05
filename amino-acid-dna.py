@@ -74,7 +74,9 @@ def run_seqences(strA, strB):
         str_two_final += str_two_best    
         print(str_one_letter + " & " + str_two_letter + " => " + str_one_best + " " + str_two_best + " " + str(top_score))
         strA_counter += 1
+    print("\n Sequence One:")    
     print(str_one_final)
+    print("\n Sequence Two:")
     print(str_two_final)         
  
 if __name__ == "__main__":
